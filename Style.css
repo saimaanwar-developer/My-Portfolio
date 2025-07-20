@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma,  sans-serif;
+
+}
+body{
+    background-color:rgb(29, 49, 29);
+    color:white;
+    line-height: 1.6;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #333;
+    color: #fff;
+}
+.navbar .logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.hero{
+    padding: 3rem;
+    background-color: rgb(7, 29, 17);
+}
+
+.hero h2{
+    padding: 0.5rem;
+}
+.hero p{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+button{
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding-top: 0.5rem;
+    background-color:rgb(29, 49, 29) ;
+    color: #fff;
+    border:1px solid grey;
+}
+
+.projects{
+    padding: 5rem;
+}
+.projects-card{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    justify-content:space-evenly;
+     padding-top: 2rem;
+    
+}
+#card{
+    height: 460px;
+    width: 430px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-radius: 1px solid grey;
+}
+#card h2{
+    padding: 2rem;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+/* Live on GitHub Button Style */
+.live-btn {
+    background-color: #2e8b57;
+    color: white;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin: 1rem auto;
+    display: block;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 1.35rem;
+}
+
+.live-btn:hover {
+    background-color: #246b46;
+}
+
+#card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact{
+    background-color: rgb(7, 29, 17);
+    padding: 2rem;
+    text-align: center;
+}
+.contact form{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.contact h2{
+    padding: 1.5rem;
+    
+}
+.contact input{
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border: 1px solid #ccc; 
+}
+.contact button{
+    background-color:rgb(29, 49, 29) ;
+    color:#fff;
+    padding: 0.75rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+  }
